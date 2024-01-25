@@ -1,6 +1,7 @@
 import express from 'express';
 import { mongoose } from 'mongoose';
 import dotenv from 'dotenv';
+import userRoutes from './routes/user.rout.js'
 
 dotenv.config();
 
@@ -20,3 +21,5 @@ app.listen(3000, () => {
 console.log('Sever is running on port 3000!')
 
 });
+
+app.use('/api/user', userRoutes);
