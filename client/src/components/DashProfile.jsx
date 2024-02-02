@@ -128,7 +128,7 @@ export default function DashProfile() {
         <Button type="submit" gradientDuoTone="purpleToBlue" outline>
           Update
         </Button>
-        <div className="text-red-500 flex justify-between mt-5">
+        <div className="text-red-500 flex justify-between mt-5" >
           <span className="cursor-pointer">Delete Account</span>
           <span className="cursor-pointer">Sign out</span>
         </div>
