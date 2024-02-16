@@ -22,7 +22,7 @@ const postSchema = new mongoose.Schema(
     },
     category: {
       type: String,
-      default: 'uncategorized', // Default value when category is not provided
+      default: 'uncategorized',
       unique: true,
     },
     slug: {
