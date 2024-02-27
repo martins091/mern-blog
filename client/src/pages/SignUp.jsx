@@ -47,10 +47,9 @@ const handleSubmit = async (e) => {
       >
         {/* left */}
         <div className="flex-1">
-          <Link to="/" className="font-bold dark:text-white text-4xl">
+          <Link to="/" className="font-bold dark:text-white text-4xl text-white bg-slate-600 px-2 py-1 rounded-lg">
             <span
-              className="px-2 py-1 bg-gradient-to-r from-indigo-500
-            via-purple-500 to-pink-500 rounded-lg text-white"
+              className="px-2 py-1 "
             >
               Martins
             </span>
@@ -77,7 +76,7 @@ const handleSubmit = async (e) => {
               <Label value="Your password" />
               <TextInput type="password" placeholder="Password" id="password" onChange={handleChange}/>
             </div>
-            <Button gradientDuoTone="purpleToPink" type="submit" disabled={loading}>
+            <Button type="submit" disabled={loading}>
               {
                 loading ? (
                   <>

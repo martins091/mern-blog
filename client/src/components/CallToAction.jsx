@@ -12,7 +12,7 @@ export default function CallToAction() {
             <p className='text-gray-500 my-2'>
                 checkout these resources with 100 JavaScript Projects
             </p>
-            <Button gradientDuoTone='purpleToPink' className='rounded-tl-xl rounded-bl-none'>
+            <Button className='rounded-tl-xl rounded-bl-none text-white bg-slate-600 px-2 py-1 rounded-lg'>
                 <a href="https://my-portfolio-website-iota-flame.vercel.app/" target='_blank'
                 rel='noopener noreferrer'>
                     100 JavaScript Projects

@@ -9,12 +9,12 @@ export default function FooterCom() {
           <div className='mt-5'>
             <Link
               to='/'
-              className='self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white'
+              className='self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white px-2 py-1 0 rounded-lg text-white bg-slate-600'
             >
-              <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-                Martins
+              <span className=''>
+                MARTINS 
               </span>
-              Blog
+              BLOG
             </Link>
           </div>
           <div className='grid grid-cols-2 gap-8 mt-4 sm:grid-cols-3 sm:gap-6'>
